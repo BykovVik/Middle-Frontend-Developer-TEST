@@ -1,0 +1,78 @@
+/******************************************MAIN****************************************************/
+.green {
+    font-weight: bold;
+    color: #50B810;
+}
+/****************************************STYLES****************************************************/
+.card {
+    padding: 10px;
+    border-radius: 7px;
+    box-shadow: 0px 1px 10px 0px #D0DAEB;
+    
+}
+.TodoListWrapper {
+    margin-top: 92px;
+    width: 263px;
+    height: 716px;
+    background-color: #FFFFFF;
+}
+.TopLine {
+    width: inherit;
+    height: 20px;
+    padding: 0px 4px 0px 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.TopLine > p:nth-child(1) {
+    font-size: 14px;
+}
+.TopLine > div {
+    display: flex;
+    width: 47px;
+    align-items: center;
+}
+.TopLine > div > p {
+    text-align: center;
+    width: 19px;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 1px, 6px, 2px, 5px;
+}
+.TopLine > div > img {
+    width: 20px;
+    height: 20px;
+    margin-right: 7px;
+}
+.TodoTitle {
+    display: flex;
+    height: 24px;
+    align-items: center;
+    color: #3D8FEC;
+}
+.TodoDate {
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+}
+.TodoDescription {
+    font-size: 13px;
+}
+.BottomLine {
+    display: flex;
+    justify-content: space-between;
+}
+.BottomLine > span > a {
+    border-radius: 4px;
+    padding: 2px 6px;
+    text-decoration: none;
+    font-size: 12px;
+}
+.BottomLine > span > a:nth-child(1) {
+    background: #B233A6;
+    color: white;
+}
+.BottomLine > span > a:nth-child(2) {
+    background: #EBEEF6;
+    color: black;
+}
